@@ -3,7 +3,12 @@ package CreationalPatterns.PrototypePattern;
 import java.util.HashMap;
 
 public class ShapeCache {
-    private static HashMap<String, Shape> mp = new HashMap<>();
+    private static HashMap<String, Shape> mp;
+
+    public ShapeCache(){
+        mp = new HashMap<>();
+        loadCache();
+    }
 
     public static Shape getShape(String shapeId) {
         Shape cachedShape = mp.get(shapeId);
