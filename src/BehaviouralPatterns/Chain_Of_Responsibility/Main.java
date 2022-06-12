@@ -1,4 +1,4 @@
-package StructuralPatterns.Chain_Of_Responsibility;
+package BehaviouralPatterns.Chain_Of_Responsibility;
 
 public class Main {
     public  static void main(String[] args){

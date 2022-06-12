@@ -1,4 +1,4 @@
-package StructuralPatterns.Iterator;
+package BehaviouralPatterns.Iterator;
 
 public class Main {
     public static void main(String[] args){

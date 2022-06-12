@@ -1,4 +1,4 @@
-package StructuralPatterns.Iterator;
+package BehaviouralPatterns.Iterator;
 
 public interface Iterator {
     Object next();

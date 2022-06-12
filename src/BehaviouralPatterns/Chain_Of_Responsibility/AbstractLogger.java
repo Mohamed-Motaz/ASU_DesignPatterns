@@ -1,4 +1,4 @@
-package StructuralPatterns.Chain_Of_Responsibility;
+package BehaviouralPatterns.Chain_Of_Responsibility;
 
 public abstract class AbstractLogger {
     protected int level;

@@ -1,4 +1,4 @@
-package StructuralPatterns.Iterator;
+package BehaviouralPatterns.Iterator;
 
 public class NameIterator implements Iterator{
 
@@ -11,7 +11,7 @@ public class NameIterator implements Iterator{
 
     @Override
     public Object next() {
-       if (hasNext()){
+       if (this.hasNext()){
            return names[index++];
        }
        return null;

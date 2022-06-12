@@ -1,4 +1,4 @@
-package StructuralPatterns.Iterator;
+package BehaviouralPatterns.Iterator;
 
 public class NameRepository implements Container{
     protected String[] names = {"1", "2", "3", "4"};
