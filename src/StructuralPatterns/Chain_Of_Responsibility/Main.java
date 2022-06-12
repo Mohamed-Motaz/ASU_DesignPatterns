@@ -2,8 +2,8 @@ package StructuralPatterns.Chain_Of_Responsibility;
 
 public class Main {
     public  static void main(String[] args){
-        ErrorLogger eLogger = new ErrorLogger(AbstractLogger.ERROR);
-        InfoLogger iLogger = new InfoLogger(AbstractLogger.INFO);
+        AbstractLogger eLogger = new ErrorLogger(AbstractLogger.ERROR);
+        AbstractLogger iLogger = new InfoLogger(AbstractLogger.INFO);
 
         eLogger.setNextLogger(iLogger);
 

@@ -3,7 +3,7 @@ package StructuralPatterns.Chain_Of_Responsibility;
 public class ErrorLogger extends AbstractLogger{
 
     public ErrorLogger(int level) {
-        super(level);
+        this.level = level;
     }
 
     @Override
